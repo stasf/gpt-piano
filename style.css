@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 800px;
+    height: 200px;
+    position: relative;
+    margin: 50px auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .box {
+    width: 50px;
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid #000;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .box.playing {
+    background-color: #888;
+    color: #fff;
+  }
+  
+  .box[data-note$='#'] {
+    width: 25px;
+    height: 120px;
+    background-color: #000;
+    color: #fff;
+    z-index: 1;
+    margin-top: -60px;
+    margin-left: -25px;
+  }
+  
+  .box[data-note='C#'] {
+    margin-left: -12.5px;
+  }
+  
+  .box[data-note='D#'] {
+    margin-left: -12.5px;
+  }
+  
+  .box[data-note='F#'] {
+    margin-left: -12.5px;
+  }
+  
+  .box[data-note='G#'] {
+    margin-left: -12.5px;
+  }
+  
+  .box[data-note='A#'] {
+    margin-left: -12.5px;
+  }
+  
