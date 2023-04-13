@@ -29,6 +29,8 @@ const keyNotes = {
     box.classList.add('playing');
     setTimeout(() => box.classList.remove('playing'), 1000);
   }
+
+  //add a comment
   
   function getFrequency(note) {
     const frequencies = {
